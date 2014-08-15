@@ -1,0 +1,87 @@
+/*This affects all on the webpage */
+body{
+	font-family: 'Cabin', sans-serif;
+	background: #FAEBD7;
+	color: #191970;
+	opacity: 0.85;
+	margin: auto;
+    width: 85%;
+}
+
+/* Only affects level 1 headers */
+h1{
+	font: bolder 56px/60px 'Cabin';
+	text-align: center;
+	text-shadow:5px 5px 10px black;
+}
+/* Only affects level 2 headers */
+h2{
+	font: bolder 36px/48px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:35px;
+}
+/* Only affects level3 headers */
+h3{
+	font: bolder 24px/36px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:50px;
+}
+/* Affects all paragraphs on the page */
+p{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:large;
+}
+/* For block quote only */
+blockquote{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:large;
+}
+/* Only affects lists on the page */
+ul, ol{
+	line-height:150%;
+	font-weight:900;
+}
+/* changes the style of this list */
+ol{
+	list-style-type:decimal;
+}
+/* changes the style of this list */
+ul{
+	list-style-type:circle;
+}
+
+/* unvisited link */
+a:link {
+    color: #0000FF;
+}
+
+/* visited link */
+a:visited {
+    color: #2F4F4F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2F4F4F;
+}
+
+/* selected link */
+a:active {
+    color: #FFA500;
+}
+/* Adds margin, padding, and border with shadow to only level 2 headings */
+h2{
+width: 220px;
+padding: 5px;
+border: 5px solid;
+border-radius: 25px;
+margin: 15px;
+box-shadow: 10px 10px 5px #888888;
+}
+h1,h2,h3{
+	color: #FF6347;
+}
