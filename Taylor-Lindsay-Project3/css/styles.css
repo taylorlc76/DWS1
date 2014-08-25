@@ -1,0 +1,111 @@
+/*This affects all on the webpage */
+body{
+	font-family: 'Cabin', Verdana, sans-serif;
+	font-style: normal;
+	color: #191970;
+	opacity: 0.85;
+	margin: auto;
+    width: 85%;
+    background: #5F9EA0 url("https://cdn1.iconfinder.com/data/icons/inficons/128/647546-pinterest.png") no-repeat right top;
+}
+
+/* Only affects level 1 headers */
+h1{
+	font: bolder 56px/60px 'Cabin';
+	width: 1000px;
+	text-align: center;
+	text-shadow:5px 5px 10px black;
+	background: #c5deea; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c5deea), color-stop(31%,#8abbd7), color-stop(100%,#066dab)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C */
+}	
+/* Only affects level 2 headers */
+h2{
+	font: bolder 36px/48px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:35px;
+}
+/* Only affects level 3 headers */
+h3{
+	font: bolder 24px/36px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:50px;
+	text-align: left;
+}
+/* Affects all paragraphs on the page */
+p{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:16px;
+	clear: both;
+	background: #F0F8FF url('http://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg') fixed;
+}
+/* For block quote only */
+blockquote{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:16px;
+	background: #F0F8FF url('http://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg') fixed;
+}
+/* Only affects lists on the page */
+ul, ol{
+	line-height:150%;
+	font-weight:900;
+	background: #F0F8FF url('http://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg') fixed;
+}
+/* changes the style of this list */
+ol{
+	list-style-type:decimal;
+}
+/* changes the style of this list */
+ul{
+	list-style-type:circle;
+}
+
+/* unvisited link */
+a:link {
+    color: #0000FF;
+}
+
+/* visited link */
+a:visited {
+    color: #2F4F4F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2F4F4F;
+}
+
+/* selected link */
+a:active {
+    color: #FFA500;
+}
+
+/* Adds margin, padding, and border with shadow to only level 2 headings */
+h2{
+width: 220px;
+padding: 5px;
+border: 5px solid #2F4F4F;
+border-radius: 25px;
+margin: 15px;
+box-shadow: 10px 10px 5px #888888;
+}
+
+/* For headers only */
+h1,h2,h3{
+	color: #FF6347;
+}
+
+/* Images only */
+figure{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
