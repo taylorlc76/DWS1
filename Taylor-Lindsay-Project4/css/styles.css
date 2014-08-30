@@ -1,0 +1,161 @@
+/*This affects all on the webpage */
+body{
+	font-family: 'Cabin', Verdana, sans-serif;
+	font-style: oblique;
+	color: #191970;
+	opacity: 0.85;
+	margin: 5%;
+    width: 85%;
+    background: #5F9EA0 url("../images/pin.png") no-repeat right top;
+}
+
+/* Only affects level 1 headers */
+h1{
+	font: bolder 56px/60px 'Cabin';
+	width: 90%;
+	text-align: center;
+	text-shadow:5px 5px 10px black;
+	background: #c5deea; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c5deea), color-stop(31%,#8abbd7), color-stop(100%,#066dab)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C */
+	padding: 1%;
+}	
+/* Only affects level 2 headers */
+h2{
+	font: bolder 36px/48px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:35px;
+}
+/* Only affects level 3 headers */
+h3{
+	font: bolder 24px/36px 'Cabin';
+	text-shadow:5px 5px 10px black;
+	text-indent:50px;
+	text-align: left;
+	clear: both;
+}
+/* Affects all paragraphs on the page */
+p{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:16px;
+	clear: none;
+	background: #F0F8FF url('../images/sand-blossom.gif') fixed;
+	margin: 3%;
+}
+/* For block quote only */
+blockquote{
+	text-indent:50px;
+	line-height:200%;
+	font-weight:900;
+	font-size:16px;
+	background: #F0F8FF url('../images/sand-blossom.gif') fixed;
+}
+/* Only affects lists on the page */
+ul, ol{
+	line-height:150%;
+	font-weight:900;
+	background: #F0F8FF url('../images/sand-blossom.gif') fixed;
+	clear: both;
+	width: 50%;
+	margin: 3%;
+}
+/* changes the style of this list */
+ol{
+	list-style-type:decimal;
+}
+/* changes the style of this list */
+ul{
+	list-style-type:circle;
+}
+
+/* unvisited link */
+a:link {
+    color: #0000FF;
+}
+
+/* visited link */
+a:visited {
+    color: #2F4F4F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2F4F4F;
+}
+
+/* selected link */
+a:active {
+    color: #FFA500;
+}
+
+/* Adds margin, padding, and border with shadow to only level 2 headings */
+h2{
+width: 18%;
+padding: 1%;
+border: 5px solid #2F4F4F;
+border-radius: 25px;
+margin: 1%;
+box-shadow: 10px 10px 5px #888888;
+}
+
+/* For headers only */
+h1,h2,h3{
+	color: #FF6347;
+	margin: 3%;
+}
+
+/* Images only */
+figure{
+	float: left;
+	padding: 10px;
+}
+/* Lists only */
+li{
+	display: block;
+	padding: 1%;
+}
+/* Table, Header, and Data */
+table, th, td{
+	width: 50%;
+	padding: 1%;
+	text-align: left;
+	text-transform: center;
+	border: 1px solid black;
+	font-size: 16px;
+	background-color: #2F4F4F;
+	color: #F0F8FF;
+	border-spacing: 10px 10px;
+}
+/* Hover on Table */
+td:hover, th:hover{
+	background-color: #6495ED;
+}
+
+/* Form */
+form{
+	float: both;
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	font-size: 20px;
+	color: #2F4F4F;
+	background-color: #2F4F4F;
+	border: 1px solid black;
+	text-align: left;
+}
+
+/* Hover on Form */
+form:hover{
+	background-color: #6495ED;
+}
+
+/* Focus on Form */
+form:focus{
+	background-color: #6495ED;
+}
